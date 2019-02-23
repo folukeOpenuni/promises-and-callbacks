@@ -1,0 +1,22 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "This is a small list of examples that Manchester class 2 went over during class.",
+  "main": "01_simpleTimeout.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/folukeOpenuni/promises-and-callbacks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/folukeOpenuni/promises-and-callbacks/issues"
+  },
+  "homepage": "https://github.com/folukeOpenuni/promises-and-callbacks#readme",
+  "dependencies": {
+    "fs-extra": "^7.0.1"
+  }
+}

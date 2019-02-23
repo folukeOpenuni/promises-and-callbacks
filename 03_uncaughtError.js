@@ -4,4 +4,5 @@ function myCallbackFunction() {
 
 setTimeout(myCallbackFunction, 1000);
 /* uncomment and run again. is hello world getting printed? why? */
-// throw new Error("this is an error");
+throw new Error("this is an error");
+//the code will work
