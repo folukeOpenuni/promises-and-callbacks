@@ -7,7 +7,7 @@ myPromise
   })
   .then(function(value) {
     console.log("second then:", value);
-    // return value;
+    return value;
   })
   .then(function(value) {
     console.log("third then:", value);
