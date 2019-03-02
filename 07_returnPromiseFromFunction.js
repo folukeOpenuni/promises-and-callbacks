@@ -4,15 +4,15 @@ function returnsAPromise() {
   var promiseResult = myPromise
     .then(function(value) {
       console.log("first then:", value);
-      return value + 50;
+      return value + 50; //42+50
     })
     .then(function(value) {
       console.log("second then:", value);
-      return value;
+      return value; //92
     })
     .then(function(value) {
       console.log("third then:", value);
-      return "return value of the third promise";
+      return "return value of the third promise"; //92
     });
 
   return promiseResult; // notice how we are returning the promise chain itself!
